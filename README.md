@@ -30,13 +30,13 @@ Before using this script, ensure you have the following:
 
 ## Set up API credentials for Domeneshop:
 1. Obtain an API token and secret from Domeneshop.
-2. For security is is recommended to set credentials as environment variables (DOMENESHOP_API_TOKEN and DOMENESHOP_API_SECRET).
+2. For security is is recommended to set API credentials as enviroment variables **DOMENESHOP_API_TOKEN** and **DOMENESHOP_API_SECRET**. 
 
 ##Configuration
 Modify the script variables according to your domain setup:
-ROOT_DOMAIN: The root domain for which the SSL certificate is being renewed.
-SUBDOMAIN: The subdomain used for Certbot DNS authentication.
-TTL: Time-to-live for DNS records (in seconds).
+**ROOT_DOMAIN:** The root domain for which the SSL certificate is being renewed.
+**SUBDOMAIN:** The subdomain used for Certbot DNS authentication.
+**TTL:** Time-to-live for DNS records (in seconds).
 
 ## Usage
 Make sure the script (auth_hook.py) has execute permissions:
