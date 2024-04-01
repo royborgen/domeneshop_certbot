@@ -29,7 +29,7 @@ Before using this script, ensure you have the following:
     - re library installed
 
 ## Set up API credentials for Domeneshop:
-1. Obtain an API token and secret from Domeneshop.
+1. Obtain an API token and secret from Domeneshop: https://domene.shop/admin?view=api
 2. For security is is recommended to set API credentials as enviroment variables **DOMENESHOP_API_TOKEN** and **DOMENESHOP_API_SECRET**. 
 
 ## Configuration
@@ -39,7 +39,7 @@ Modify the script variables according to your domain setup:
 - **TTL:** Time-to-live for DNS records (in seconds).
 
 ## Usage
-Make sure the script (auth_hook.py) has execute permissions:
+Make sure the script (domeneshop_certbot.py) has execute permissions:
  ```
 chmod +x domeneshop_certbot.py
  ```
