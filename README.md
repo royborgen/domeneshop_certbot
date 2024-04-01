@@ -32,7 +32,7 @@ Before using this script, ensure you have the following:
 1. Obtain an API token and secret from Domeneshop.
 2. For security is is recommended to set API credentials as enviroment variables **DOMENESHOP_API_TOKEN** and **DOMENESHOP_API_SECRET**. 
 
-##Configuration
+## Configuration
 Modify the script variables according to your domain setup:
 **ROOT_DOMAIN:** The root domain for which the SSL certificate is being renewed.
 **SUBDOMAIN:** The subdomain used for Certbot DNS authentication.
