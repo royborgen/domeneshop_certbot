@@ -1,4 +1,4 @@
-# Certbot DNS Authentication Script
+# Domeneshop Certbot DNS Authentication Script
 
 This Python script automates the process of setting up DNS authentication for SSL certificate renewal using Certbot. It integrates with the Domeneshop API to manage DNS records for the specified domain.
 
