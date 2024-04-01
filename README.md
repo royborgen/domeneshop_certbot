@@ -21,13 +21,11 @@ Before using this script, ensure you have the following:
 
 2. Ensure you have the required Python dependencies installed:
     - Python 3 
-    - requests library installed 
-    - sys library installed 
+    - time library installed 
+    - os library installed 
+    - requests library installed
     - json library installed
-    - os library installed
-    - configparser library installed
-    - re library installed
-
+    
 ## Set up API credentials for Domeneshop:
 1. Obtain an API token and secret from Domeneshop: https://domene.shop/admin?view=api
 2. For security is is recommended to set API credentials as enviroment variables **DOMENESHOP_API_TOKEN** and **DOMENESHOP_API_SECRET**. 
