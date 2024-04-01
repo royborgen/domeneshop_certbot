@@ -6,8 +6,8 @@ import json
 
 # API endpoint and credentials
 API_URL = "https://api.domeneshop.no/v0/domains"
-API_TOKEN = "DOMENESHOP_API_TOKEN"
-API_SECRET = "DOMENESHOP_API_SECRET"
+API_TOKEN = os.environ.get("DOMENESHOP_API_TOKEN")
+API_SECRET = os.environ.get("DOMENESHOP_API_SECRET")
 
 # Domain information
 ROOT_DOMAIN = "EXAMPLE.COM"
