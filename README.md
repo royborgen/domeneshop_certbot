@@ -34,9 +34,9 @@ Before using this script, ensure you have the following:
 
 ## Configuration
 Modify the script variables according to your domain setup:
-**ROOT_DOMAIN:** The root domain for which the SSL certificate is being renewed.
-**SUBDOMAIN:** The subdomain used for Certbot DNS authentication.
-**TTL:** Time-to-live for DNS records (in seconds).
+- **ROOT_DOMAIN:** The root domain for which the SSL certificate is being renewed.
+- **SUBDOMAIN:** The subdomain used for Certbot DNS authentication.
+- **TTL:** Time-to-live for DNS records (in seconds).
 
 ## Usage
 Make sure the script (auth_hook.py) has execute permissions:
